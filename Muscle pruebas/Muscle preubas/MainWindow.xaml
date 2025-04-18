@@ -1,0 +1,21 @@
+﻿<Window x:Class="Muscle_preubas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Muscle_preubas"
+        mc:Ignorable="d"
+        Title="Ventana principal" Height="400" Width="600"
+        Topmost="True">
+    <Grid>
+        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="https://png.pngtree.com/png-clipart/20230916/original/pngtree-soccer-ball-football-png-image_12258462.png"
+                       Width="48"
+                       Height="48"
+                       Margin="5"/>
+                <Label FontSize="20" Content="Acceso al sistema" VerticalAlignment="Center"/>
+            </StackPanel>
+        </Button>
+    </Grid>
+</Window>
