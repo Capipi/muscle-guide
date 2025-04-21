@@ -10,3 +10,12 @@
 * [Creando UserControls en WPF 2/4](https://www.youtube.com/watch?v=gBagl8siTng)
 * [Creando UserControls en WPF 3/4](https://www.youtube.com/watch?v=3b5-lRkYMpo)
 * [Creando UserControls en WPF 4/4](https://www.youtube.com/watch?v=_lTX_1h1YPQ)
+
+###### Solo visto [y en 1.75, por hacer una idea]
+* [Creando una aplicación básica WPF 1/7](https://www.youtube.com/watch?v=1e8B-uYeKcs)
+* [Creando una aplicación básica WPF 2/7](https://www.youtube.com/watch?v=OxPlKfuceOE)
+* [Creando una aplicación básica WPF 3/7](https://www.youtube.com/watch?v=O1bExtKnQNc)
+* [Creando una aplicación básica WPF 4/7](https://www.youtube.com/watch?v=GYhOR-WM_ZM)
+* [Creando una aplicación básica WPF 5/7](https://www.youtube.com/watch?v=M0AAwqP60Ow)
+* [Creando una aplicación básica WPF 6/7](https://www.youtube.com/watch?v=CLjp1Ly8JhU)
+* [Creando una aplicación básica WPF 7/7](https://www.youtube.com/watch?v=KqxUPF9nA0w)
