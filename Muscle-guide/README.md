@@ -5,8 +5,3 @@
 * [Curso rápido de introducción a WPF Básico - 1](https://www.youtube.com/watch?v=an2_ZWjCxy8&list=PLJMC9VQdDCgJpgLzxhkhnt0hW_VRg3E5b&index=2)
 * [Curso rápido de introducción a WPF Básico - 2](https://www.youtube.com/watch?v=IEMjrCNpLxM&list=PLJMC9VQdDCgJpgLzxhkhnt0hW_VRg3E5b&index=3)
 * [Curso rápido de introducción a WPF Básico - 3](https://www.youtube.com/watch?v=o5ObiLgBjVI&list=PLJMC9VQdDCgJpgLzxhkhnt0hW_VRg3E5b&index=1)
-
-* [Creando UserControls en WPF 1/4](https://www.youtube.com/watch?v=ipDragZ6R4s)
-* [Creando UserControls en WPF 2/4](https://www.youtube.com/watch?v=gBagl8siTng)
-* [Creando UserControls en WPF 3/4](https://www.youtube.com/watch?v=3b5-lRkYMpo)
-* [Creando UserControls en WPF 4/4](https://www.youtube.com/watch?v=_lTX_1h1YPQ)

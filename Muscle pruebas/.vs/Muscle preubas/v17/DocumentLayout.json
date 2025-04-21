@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\Muscle pruebas\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C8AD8326-B3FA-4EE2-B244-E50A66CCA76D}|Muscle preubas\\Muscle preubas.csproj|C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\Muscle pruebas\\muscle preubas\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C8AD8326-B3FA-4EE2-B244-E50A66CCA76D}|Muscle preubas\\Muscle preubas.csproj|solutionrelative:muscle preubas\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C8AD8326-B3FA-4EE2-B244-E50A66CCA76D}|Muscle preubas\\Muscle preubas.csproj|c:\\users\\usuario\\documents\\aaaaa-samuel pruebas\\muscle pruebas\\muscle preubas\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8AD8326-B3FA-4EE2-B244-E50A66CCA76D}|Muscle preubas\\Muscle preubas.csproj|solutionrelative:muscle preubas\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8AD8326-B3FA-4EE2-B244-E50A66CCA76D}|Muscle preubas\\Muscle preubas.csproj|C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\Muscle pruebas\\muscle preubas\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8AD8326-B3FA-4EE2-B244-E50A66CCA76D}|Muscle preubas\\Muscle preubas.csproj|solutionrelative:muscle preubas\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8AD8326-B3FA-4EE2-B244-E50A66CCA76D}|Muscle preubas\\Muscle preubas.csproj|C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\Muscle pruebas\\muscle preubas\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C8AD8326-B3FA-4EE2-B244-E50A66CCA76D}|Muscle preubas\\Muscle preubas.csproj|solutionrelative:muscle preubas\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8AD8326-B3FA-4EE2-B244-E50A66CCA76D}|Muscle preubas\\Muscle preubas.csproj|C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\Muscle pruebas\\muscle preubas\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Window1.xaml.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\Muscle pruebas\\Muscle preubas\\Window1.xaml.cs",
               "RelativeDocumentMoniker": "Muscle preubas\\Window1.xaml.cs",
@@ -43,18 +43,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Window1.xaml",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\Muscle pruebas\\Muscle preubas\\Window1.xaml",
               "RelativeDocumentMoniker": "Muscle preubas\\Window1.xaml",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\Muscle pruebas\\Muscle preubas\\Window1.xaml",
               "RelativeToolTip": "Muscle preubas\\Window1.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-17T18:18:53.799Z"
+              "WhenOpened": "2025-04-17T18:18:53.799Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\Muscle pruebas\\Muscle preubas\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Muscle preubas\\MainWindow.xaml.cs",
