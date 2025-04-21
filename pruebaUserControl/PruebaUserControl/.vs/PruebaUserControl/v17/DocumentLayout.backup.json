@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{FE6F6368-0D96-470A-A795-C7A3ECB5D06B}|PruebaUserControl\\PruebaUserControl.csproj|solutionrelative:pruebausercontrol\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FE6F6368-0D96-470A-A795-C7A3ECB5D06B}|PruebaUserControl\\PruebaUserControl.csproj|c:\\users\\usuario\\documents\\aaaaa-samuel pruebas\\pruebausercontrol\\pruebausercontrol\\pruebausercontrol\\literals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE6F6368-0D96-470A-A795-C7A3ECB5D06B}|PruebaUserControl\\PruebaUserControl.csproj|solutionrelative:pruebausercontrol\\literals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FE6F6368-0D96-470A-A795-C7A3ECB5D06B}|PruebaUserControl\\PruebaUserControl.csproj|c:\\users\\usuario\\documents\\aaaaa-samuel pruebas\\pruebausercontrol\\pruebausercontrol\\pruebausercontrol\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FE6F6368-0D96-470A-A795-C7A3ECB5D06B}|PruebaUserControl\\PruebaUserControl.csproj|solutionrelative:pruebausercontrol\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -34,35 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainView.xaml",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\pruebaUserControl\\PruebaUserControl\\PruebaUserControl\\Views\\MainView.xaml",
-              "RelativeDocumentMoniker": "PruebaUserControl\\Views\\MainView.xaml",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\pruebaUserControl\\PruebaUserControl\\PruebaUserControl\\Views\\MainView.xaml",
-              "RelativeToolTip": "PruebaUserControl\\Views\\MainView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-20T18:33:04.98Z",
+              "Title": "Literals.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\pruebaUserControl\\PruebaUserControl\\PruebaUserControl\\Literals.cs",
+              "RelativeDocumentMoniker": "PruebaUserControl\\Literals.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\pruebaUserControl\\PruebaUserControl\\PruebaUserControl\\Literals.cs",
+              "RelativeToolTip": "PruebaUserControl\\Literals.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T17:08:12.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LimitInputUserControl.xaml",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\pruebaUserControl\\PruebaUserControl\\PruebaUserControl\\UserControls\\LimitInputUserControl.xaml",
-              "RelativeDocumentMoniker": "PruebaUserControl\\UserControls\\LimitInputUserControl.xaml",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\pruebaUserControl\\PruebaUserControl\\PruebaUserControl\\UserControls\\LimitInputUserControl.xaml",
-              "RelativeToolTip": "PruebaUserControl\\UserControls\\LimitInputUserControl.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-21T16:23:28.945Z",
+              "DocumentIndex": 0,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\pruebaUserControl\\PruebaUserControl\\PruebaUserControl\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "PruebaUserControl\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\pruebaUserControl\\PruebaUserControl\\PruebaUserControl\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "PruebaUserControl\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwDwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T18:35:57.044Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DataInput.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\pruebaUserControl\\PruebaUserControl\\PruebaUserControl\\Models\\DataInput.cs",
               "RelativeDocumentMoniker": "PruebaUserControl\\Models\\DataInput.cs",
@@ -75,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "LimitInputUserControl.xaml.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\pruebaUserControl\\PruebaUserControl\\PruebaUserControl\\UserControls\\LimitInputUserControl.xaml.cs",
               "RelativeDocumentMoniker": "PruebaUserControl\\UserControls\\LimitInputUserControl.xaml.cs",
@@ -88,20 +94,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\pruebaUserControl\\PruebaUserControl\\PruebaUserControl\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "PruebaUserControl\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\pruebaUserControl\\PruebaUserControl\\PruebaUserControl\\ViewModels\\MainViewModel.cs*",
-              "RelativeToolTip": "PruebaUserControl\\ViewModels\\MainViewModel.cs*",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwDsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T18:35:57.044Z",
+              "DocumentIndex": 3,
+              "Title": "LimitInputUserControl.xaml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\pruebaUserControl\\PruebaUserControl\\PruebaUserControl\\UserControls\\LimitInputUserControl.xaml",
+              "RelativeDocumentMoniker": "PruebaUserControl\\UserControls\\LimitInputUserControl.xaml",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\pruebaUserControl\\PruebaUserControl\\PruebaUserControl\\UserControls\\LimitInputUserControl.xaml",
+              "RelativeToolTip": "PruebaUserControl\\UserControls\\LimitInputUserControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-21T16:23:28.945Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "MainView.xaml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\pruebaUserControl\\PruebaUserControl\\PruebaUserControl\\Views\\MainView.xaml",
+              "RelativeDocumentMoniker": "PruebaUserControl\\Views\\MainView.xaml",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\pruebaUserControl\\PruebaUserControl\\PruebaUserControl\\Views\\MainView.xaml",
+              "RelativeToolTip": "PruebaUserControl\\Views\\MainView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-20T18:33:04.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ViewModelBase.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\AAAAA-Samuel Pruebas\\pruebaUserControl\\PruebaUserControl\\PruebaUserControl\\ViewModelBase.cs",
               "RelativeDocumentMoniker": "PruebaUserControl\\ViewModelBase.cs",
