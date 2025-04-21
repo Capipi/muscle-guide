@@ -1,5 +1,12 @@
 #### Subidas (Cada número representa una subida diferente):
 1. Creación de proyecto y primer commit vacío
+2. Creación de README.md
+3. Aactualización README 2 cursos básicos
+4. Pruebas curso básico
+5. Curso UserControls
+6. Copiar repositorio remoto
+7. Actualización README: curso creando aplicación básica wpf
+8. Actualización README Subida 8
 
 #### "Cursos":
 * [Curso rápido de introducción a WPF Básico - 1](https://www.youtube.com/watch?v=an2_ZWjCxy8&list=PLJMC9VQdDCgJpgLzxhkhnt0hW_VRg3E5b&index=2)
