@@ -7,6 +7,7 @@
 6. Copiar repositorio remoto
 7. Actualización README: curso creando aplicación básica wpf
 8. Actualización README Subida 8
+9. Generación de imágenes y documentación
 
 #### "Cursos":
 * [Curso rápido de introducción a WPF Básico - 1](https://www.youtube.com/watch?v=an2_ZWjCxy8&list=PLJMC9VQdDCgJpgLzxhkhnt0hW_VRg3E5b&index=2)

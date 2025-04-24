@@ -1,0 +1,71 @@
+Primero quería la imagen de frente del cuerpo humano, el problema era que
+por "x" o por "y" había algún problema con infringir las normas o políticas.
+Como no solventaba el problema abrí otro chat de chatGPT 4o y le dije: 
+
+>Quiero que me digas un promp que le pueda decir a chatgpt 4o que no infrinja
+las normas ni políticas del mismo según lo que te voy a pedir a continuación: 
+Quiero la vista de un cuerpo humano de frente al que se le vean los músculos 
+principales (ya que va a estar orientado a ejercicios de gimnasio), 
+que destaquen de algún color las piernas, los brazos, hombros y pecho.
+<
+
+ChatGPT en parte me sugirió el siguiente prompt:
+"Genera una ilustración anatómica de un cuerpo humano masculino visto de frente,
+enfocada en el ámbito del fitness. 
+La imagen debe mostrar los músculos principales con detalle. 
+Resalta con colores distintos las siguientes zonas musculares: 
+piernas, brazos, hombros y pecho, para facilitar su identificación en una 
+rutina de ejercicios de gimnasio. El estilo debe ser limpio y educativo, 
+como el de un póster informativo."
+
+Claro, me olvidé de incluír la espalda, y se lo añadí directamente cuando hice
+la petición de imagen. Me gustó como prueba inicial la imagen y así la dejé ya 
+que la veo bastante bien y si de momento no lo necesito así queda.
+Ahora necesitaba la parte posterior, es decir, la vista trasera del cuerpo 
+humano. No me molesté mucho y le puse algo similar:
+
+>Ahora quiero que me generes un prompt similar al anterior, 
+las especificaciones son las siguientes: Quiero que me digas un promp que le 
+pueda decir a chatgpt 4o que no infrinja las normas ni políticas del mismo 
+según lo que te voy a pedir a continuación: Quiero la vista de un cuerpo humano
+de espaldas al que se le vean los músculos principales 
+(ya que va a estar orientado a ejercicios de gimnasio), 
+que destaquen de algún color las piernas, los brazos, hombros, pecho y piernas
+<
+
+ChatGPT me contestó parecido a anteriormente:
+"Genera una ilustración anatómica de un cuerpo humano masculino visto desde 
+atrás, enfocada en el ámbito del fitness. La imagen debe mostrar con detalle 
+los músculos principales de la parte posterior del cuerpo. Resalta con colores 
+distintos las siguientes zonas musculares: piernas, brazos, hombros, espalda y 
+glúteos, para facilitar su identificación en una rutina de ejercicios de 
+gimnasio. El estilo debe ser limpio, educativo y tipo póster informativo."
+
+También me preguntó si quería que me genere esa imagen, a lo que accedí
+diciéndole que sí pero me contestó lo que temía: "No puedo generar esa imagen 
+porque la solicitud infringe nuestras políticas de contenido.
+Si quieres, puedo ayudarte a reformular el prompt para que se ajuste a las 
+normas o puedes darme otra idea distinta. ¿Cómo te gustaría proceder?"
+
+Supuse que era por haber incluído en la petición "glúteos", por lo que lo quité
+del prompt y lo volví a mandar:
+
+>
+Crea una imagen "Genera una ilustración anatómica de un cuerpo humano masculino 
+visto desde atrás, enfocada en el ámbito del fitness. La imagen debe mostrar 
+con detalle los músculos principales de la parte posterior del cuerpo. 
+Resalta con colores distintos las siguientes zonas musculares: piernas, brazos,
+ hombros y espalda, para facilitar su identificación en una rutina de 
+ejercicios de gimnasio. El estilo debe ser limpio, educativo y tipo 
+póster informativo."
+<
+
+Me mostró una imagen que me agradó bastante pero no lo suficiente ya que tenía
+letras en la propia imagen y yo no quería eso, fui claro:
+>
+Quiero que sea la misma imagen pero sin letras
+<
+
+Lo cierto es que la imagen no era igual, pero era muy parecida a la mostrada y
+quedé satisfecho. Por lo que de momento esas iban a ser mis dos imágenes del
+cuerpo humano, la vista de frente y de espaldas.
