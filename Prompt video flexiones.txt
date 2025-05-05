@@ -1,0 +1,6 @@
+El video lo hice con la ia "Sora" y el prompt que utilicé fue el siguiente: 
+>
+Renderiza un video en 3D estilo realista de un hombre atlético haciendo flexiones en el suelo de un gimnasio moderno. El movimiento debe ser fluido y repetir el ejercicio varias veces. Fondo con equipo de gimnasio difuminado. Iluminación clara y profesional. Vista lateral y de frente combinadas. Resolución 16:9.
+<
+
+Tuve que pedírselo 4 veces, ya que en diferentes ocasiones lo hace distorsionado. 

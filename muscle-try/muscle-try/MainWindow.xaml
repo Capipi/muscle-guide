@@ -1,0 +1,17 @@
+﻿<Window x:Class="ProyectoFinCurso.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Proyecto Fin de Curso" WindowState="Maximized" MinHeight="450" MinWidth="800">
+    <Grid>
+        <DockPanel>
+            <!-- Menú lateral con botones -->
+            <StackPanel DockPanel.Dock="Left" Width="200" Background="LightGray">
+                <Button Content="Imágenes" Margin="10" Click="Imagenes_Click"/>
+                <Button Content="Calculadora" Margin="10" Click="Calculadora_Click"/>
+            </StackPanel>
+
+            <!-- Área donde se cargarán las páginas -->
+            <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+        </DockPanel>
+    </Grid>
+</Window>
