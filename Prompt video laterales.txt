@@ -1,0 +1,6 @@
+El video lo hice con la ia "Sora" y el prompt que utilicé fue el siguiente: 
+>
+Create a 3D animation of a male athlete performing standing dumbbell lateral raises. Arms should lift to shoulder level with a slight elbow bend. Focus on deltoid activation. Clean motion, no body swinging. Use side and 3/4 front views in a softly lit gym. No UI or text. Aspect ratio 16:9
+<
+
+Tuve que pedírselo muchas veces. 

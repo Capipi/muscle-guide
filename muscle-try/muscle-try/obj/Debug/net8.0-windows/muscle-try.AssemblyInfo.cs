@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("muscle-try")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0676da6ef5879770bd2bc47c069b7b182ff8a75")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cff79b5d19457ee59498606db555f20b3b36a4f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("muscle-try")]
 [assembly: System.Reflection.AssemblyTitleAttribute("muscle-try")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

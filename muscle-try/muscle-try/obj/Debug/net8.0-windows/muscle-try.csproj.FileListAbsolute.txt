@@ -52,3 +52,7 @@ C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\musc
 C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\obj\Debug\net8.0-windows\muscle-try.pdb
 C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\obj\Debug\net8.0-windows\muscle-try.genruntimeconfig.cache
 C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\obj\Debug\net8.0-windows\ref\muscle-try.dll
+C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\videos\Curl_biceps.mp4
+C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\videos\Plancha.mp4
+C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\videos\Sentadilla.mp4
+C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\videos\Laterales.mp4

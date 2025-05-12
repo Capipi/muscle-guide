@@ -9,6 +9,7 @@
 8. Actualización README Subida 8
 9. Generación de imágenes y eliminación de carpeta problemática
 10. Avances en el proyecto base (pierna, pecho y espalda), generación de video y demostración de video
+11. Avances en el cuerpo humano (hombros [2 imágenes], brazos [2 imágenes], nuevos vídeos incorporados [biceps, hombros, sentadilla], ejemplo de video erróneo)+ nuevo video actualización.
 
 #### "Cursos":
 * [Curso rápido de introducción a WPF Básico - 1](https://www.youtube.com/watch?v=an2_ZWjCxy8&list=PLJMC9VQdDCgJpgLzxhkhnt0hW_VRg3E5b&index=2)
@@ -28,3 +29,6 @@
 * [Creando una aplicación básica WPF 5/7](https://www.youtube.com/watch?v=M0AAwqP60Ow)
 * [Creando una aplicación básica WPF 6/7](https://www.youtube.com/watch?v=CLjp1Ly8JhU)
 * [Creando una aplicación básica WPF 7/7](https://www.youtube.com/watch?v=KqxUPF9nA0w)
+
+#### Problemas
+* A la hora de las dimensiones es muy cansino ir coodenada por coodenada ya que no encontré una "automatización", a su vez la búsqueda de videos generada por ia es muy repetitiva ya que con el mismo prompt da diferente resultado y en la mayoría de los casos erróneo.
