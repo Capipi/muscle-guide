@@ -25,7 +25,6 @@ C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-try\muscle-try\obj\De
 C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-try\muscle-try\obj\Debug\net8.0-windows\ref\muscle-try.dll
 C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-try\muscle-try\bin\Debug\net8.0-windows\videos\Flexiones.mp4
 C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-try\muscle-try\obj\Debug\net8.0-windows\muscle-try_Content.g.cs
-C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\videos\Flexiones.mp4
 C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\muscle-try.exe
 C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\muscle-try.deps.json
 C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\muscle-try.runtimeconfig.json
@@ -39,7 +38,6 @@ C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\musc
 C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\obj\Debug\net8.0-windows\muscle-try_Content.g.cs
 C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\obj\Debug\net8.0-windows\muscle-try_MarkupCompile.cache
-C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\obj\Debug\net8.0-windows\muscle-try_MarkupCompile.lref
 C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\obj\Debug\net8.0-windows\PaginaCalculadora.baml
 C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\obj\Debug\net8.0-windows\muscle-try.g.resources
 C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\obj\Debug\net8.0-windows\muscle-try.GeneratedMSBuildEditorConfig.editorconfig
@@ -54,5 +52,8 @@ C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\musc
 C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\obj\Debug\net8.0-windows\ref\muscle-try.dll
 C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\videos\Curl_biceps.mp4
 C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\videos\Plancha.mp4
-C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\videos\Sentadilla.mp4
-C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\videos\Laterales.mp4
+C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\videos\Deltoides_anterior.mp4
+C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\videos\Deltoides_medial.mp4
+C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\videos\Isquiotibiales.mp4
+C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\videos\Pectoral.mp4
+C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\videos\Cuadriceps.mp4

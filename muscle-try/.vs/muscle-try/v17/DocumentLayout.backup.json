@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{B90845B5-45BF-480B-B68A-609959B50295}|muscle-try\\muscle-try.csproj|solutionrelative:muscle-try\\paginaimagenes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B90845B5-45BF-480B-B68A-609959B50295}|muscle-try\\muscle-try.csproj|c:\\users\\usuario\\documents\\aa-proyecto fin de curso\\muscle-guide\\muscle-try\\muscle-try\\muscle-try.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B90845B5-45BF-480B-B68A-609959B50295}|muscle-try\\muscle-try.csproj|solutionrelative:muscle-try\\muscle-try.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B90845B5-45BF-480B-B68A-609959B50295}|muscle-try\\muscle-try.csproj|c:\\users\\usuario\\documents\\aa-proyecto fin de curso\\muscle-guide\\muscle-try\\muscle-try\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B90845B5-45BF-480B-B68A-609959B50295}|muscle-try\\muscle-try.csproj|solutionrelative:muscle-try\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B90845B5-45BF-480B-B68A-609959B50295}|muscle-try\\muscle-try.csproj|c:\\users\\usuario\\documents\\aa-proyecto fin de curso\\muscle-guide\\muscle-try\\muscle-try\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B90845B5-45BF-480B-B68A-609959B50295}|muscle-try\\muscle-try.csproj|solutionrelative:muscle-try\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B90845B5-45BF-480B-B68A-609959B50295}|muscle-try\\muscle-try.csproj|c:\\users\\usuario\\documents\\aa-proyecto fin de curso\\muscle-guide\\muscle-try\\muscle-try\\muscle-try.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B90845B5-45BF-480B-B68A-609959B50295}|muscle-try\\muscle-try.csproj|solutionrelative:muscle-try\\muscle-try.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,6 +47,10 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
@@ -57,13 +61,14 @@
               "RelativeDocumentMoniker": "muscle-try\\PaginaImagenes.xaml.cs",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\AA-Proyecto fin de curso\\muscle-guide\\muscle-try\\muscle-try\\PaginaImagenes.xaml.cs",
               "RelativeToolTip": "muscle-try\\PaginaImagenes.xaml.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwDkAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAkwLIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T17:50:43.906Z"
+              "WhenOpened": "2025-04-29T17:50:43.906Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "muscle-try.csproj",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\AA-Proyecto fin de curso\\muscle-guide\\muscle-try\\muscle-try\\muscle-try.csproj",
               "RelativeDocumentMoniker": "muscle-try\\muscle-try.csproj",
@@ -75,19 +80,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\AA-Proyecto fin de curso\\muscle-guide\\muscle-try\\muscle-try\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "muscle-try\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\AA-Proyecto fin de curso\\muscle-guide\\muscle-try\\muscle-try\\MainWindow.xaml.cs",
               "RelativeToolTip": "muscle-try\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T17:15:29.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\AA-Proyecto fin de curso\\muscle-guide\\muscle-try\\muscle-try\\MainWindow.xaml",
               "RelativeDocumentMoniker": "muscle-try\\MainWindow.xaml",

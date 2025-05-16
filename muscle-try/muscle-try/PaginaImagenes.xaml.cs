@@ -12,10 +12,19 @@ namespace muscle_try
         {
             InitializeComponent();
         }
+
+        // Todos los métodos que en el nombre tienen la palabra "Click" están asociados a "MouseDown",
+        // es decir, cada vez que se pulse el ratón se ejecutan.
+        // Lo que hacen es lo siguiente:
+        // 1- Cambia el texto del título con el nombre del músculo.
+        // 2- Asigna un video según el músculo al elemento "MediaElement", llamado "VideoMusculo".
+        // 3- Cambia la propiedad "Visibility" del panel informativo (PanelMusculo) para que se vea.
+        // 4- Reproduce el video
+
         private void Pecho_Click(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
-            TituloMusculo.Text = "Pecho";
-            VideoMusculo.Source = new Uri("videos/Flexiones.mp4", UriKind.Relative);
+            TituloMusculo.Text = "Pectoral";
+            VideoMusculo.Source = new Uri("videos/Pectoral.mp4", UriKind.Relative);
             PanelMusculo.Visibility = Visibility.Visible;
             VideoMusculo.Play();
         }
@@ -41,7 +50,7 @@ namespace muscle_try
 
         private void Triceps_Click(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
-            TituloMusculo.Text = "Pecho";
+            TituloMusculo.Text = "Triceps";
             VideoMusculo.Source = new Uri("videos/Flexiones.mp4", UriKind.Relative);
             PanelMusculo.Visibility = Visibility.Visible;
             VideoMusculo.Play();
@@ -50,18 +59,47 @@ namespace muscle_try
         private void Cuadriceps_Click(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
             TituloMusculo.Text = "Cuádriceps";
-            VideoMusculo.Source = new Uri("videos/Sentadilla.mp4", UriKind.Relative);
+            VideoMusculo.Source = new Uri("videos/Cuadriceps.mp4", UriKind.Relative);
+            PanelMusculo.Visibility = Visibility.Visible;
+            VideoMusculo.Play();
+        }
+
+        private void HombrosFrente_Click(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            TituloMusculo.Text = "Deltoides anterior";
+            VideoMusculo.Source = new Uri("videos/Deltoides_anterior.mp4", UriKind.Relative);
             PanelMusculo.Visibility = Visibility.Visible;
             VideoMusculo.Play();
         }
 
         private void HombrosEspalda_Click(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
-            TituloMusculo.Text = "Laterales";
-            VideoMusculo.Source = new Uri("videos/Laterales.mp4", UriKind.Relative);
+            TituloMusculo.Text = "Deltoides medial";
+            VideoMusculo.Source = new Uri("videos/Deltoides_medial.mp4", UriKind.Relative);
             PanelMusculo.Visibility = Visibility.Visible;
             VideoMusculo.Play();
         }
+
+        private void Torso_Click(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            TituloMusculo.Text = "Abdominales";
+            VideoMusculo.Source = new Uri("videos/Plancha.mp4", UriKind.Relative);
+            PanelMusculo.Visibility = Visibility.Visible;
+            VideoMusculo.Play();
+        }
+
+        private void Isquios_Click(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            TituloMusculo.Text = "Isquiotibiales";
+            VideoMusculo.Source = new Uri("videos/Isquiotibiales.mp4", UriKind.Relative);
+            PanelMusculo.Visibility = Visibility.Visible;
+            VideoMusculo.Play();
+        }
+
+        // MouseEnter / MouseLeave
+        // Estos métodos gestionana la entrada y salida del ratón en los polígonos:
+        // Cuando entra se pone el borde (Stroke) de un color y aumenta su grosor (StrokeThickness) de 0 a 5
+        // en su salida, vuelve a poner el grosor a 0
 
         //Parte general
         private void Polygon_MouseEnter(object sender, MouseEventArgs e)
@@ -70,7 +108,7 @@ namespace muscle_try
             if (poligono != null)
             {
                 poligono.StrokeThickness = 5;
-                poligono.Stroke = Brushes.LightBlue;
+                poligono.Stroke = Brushes.Blue;
             }
         }
 
@@ -83,7 +121,7 @@ namespace muscle_try
             }
         }
 
-        //Parte izquierda (frente)
+        //Parte izquierda(frente)
         private void HombrosFrente_MouseEnter(object sender, MouseEventArgs e)
         {
             HombroIzquierdoFrente.Stroke = Brushes.Orange;
@@ -94,8 +132,6 @@ namespace muscle_try
 
         private void HombrosFrente_MouseLeave(object sender, MouseEventArgs e)
         {
-            HombroIzquierdoFrente.Stroke = Brushes.Red;
-            HombroDerechoFrente.Stroke = Brushes.Red;
             HombroIzquierdoFrente.StrokeThickness = 0;
             HombroDerechoFrente.StrokeThickness = 0;
         }
@@ -111,8 +147,6 @@ namespace muscle_try
 
         private void BrazosFrente_MouseLeave(object sender, MouseEventArgs e)
         {
-            BrazoIzquierdoFrente.Stroke = Brushes.Red;
-            BrazoDerechoFrente.Stroke = Brushes.Red;
             BrazoIzquierdoFrente.StrokeThickness = 0;
             BrazoDerechoFrente.StrokeThickness = 0;
         }
@@ -128,8 +162,6 @@ namespace muscle_try
 
         private void HombrosEspalda_MouseLeave(object sender, MouseEventArgs e)
         {
-            HombroIzquierdoEspalda.Stroke = Brushes.Red;
-            HombroDerechoEspalda.Stroke = Brushes.Red;
             HombroIzquierdoEspalda.StrokeThickness = 0;
             HombroDerechoEspalda.StrokeThickness = 0;
         }
@@ -145,8 +177,6 @@ namespace muscle_try
 
         private void BrazosEspalda_MouseLeave(object sender, MouseEventArgs e)
         {
-            BrazoIzquierdoEspalda.Stroke = Brushes.Red;
-            BrazoDerechoEspalda.Stroke = Brushes.Red;
             BrazoIzquierdoEspalda.StrokeThickness = 0;
             BrazoDerechoEspalda.StrokeThickness = 0;
         }

@@ -12,9 +12,15 @@
   <ItemGroup>
     <None Remove="imagenes\imagen1.png" />
     <None Remove="imagenes\imagen2.png" />
+    <None Remove="videos\Cuadriceps.mp4" />
     <None Remove="videos\Curl_biceps.mp4" />
+    <None Remove="videos\Deltoides_anterior.mp4" />
+    <None Remove="videos\Deltoides_medial.mp4" />
     <None Remove="videos\Flexiones.mp4" />
+    <None Remove="videos\Isquios.mp4" />
+    <None Remove="videos\Isquiotibiales.mp4" />
     <None Remove="videos\Laterales.mp4" />
+    <None Remove="videos\Pectoral.mp4" />
     <None Remove="videos\Plancha.mp4" />
     <None Remove="videos\Sentadilla.mp4" />
   </ItemGroup>
@@ -26,19 +32,25 @@
     <Resource Include="imagenes\imagen2.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
+    <Content Include="videos\Cuadriceps.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="videos\Curl_biceps.mp4">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="videos\Flexiones.mp4">
+    <Content Include="videos\Deltoides_anterior.mp4">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="videos\Laterales.mp4">
+    <Content Include="videos\Deltoides_medial.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="videos\Isquiotibiales.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="videos\Pectoral.mp4">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="videos\Plancha.mp4">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="videos\Sentadilla.mp4">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

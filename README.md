@@ -10,6 +10,7 @@
 9. Generación de imágenes y eliminación de carpeta problemática
 10. Avances en el proyecto base (pierna, pecho y espalda), generación de video y demostración de video
 11. Avances en el cuerpo humano (hombros [2 imágenes], brazos [2 imágenes], nuevos vídeos incorporados [biceps, hombros, sentadilla], ejemplo de video erróneo)+ nuevo video actualización.
+12. Últimos músculos del cuerpo completos (torso y parte de atrás de pierna), vídeos nuevos, código formateado y explicado y creación de calculadora de calorías, macros e IMC.
 
 #### "Cursos":
 * [Curso rápido de introducción a WPF Básico - 1](https://www.youtube.com/watch?v=an2_ZWjCxy8&list=PLJMC9VQdDCgJpgLzxhkhnt0hW_VRg3E5b&index=2)

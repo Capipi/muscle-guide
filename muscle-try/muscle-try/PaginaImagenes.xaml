@@ -1,129 +1,318 @@
-﻿<Page x:Class="muscle_try.PaginaImagenes"
-      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-      Title="PaginaImagenes">
-    <!-- Falta documentar código -->
-    <!-- Scroll solo si el alto no cabe -->
-    <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" VerticalContentAlignment="Top" HorizontalAlignment="Left">
-        <!-- Escalado automático proporcional al ancho -->
-        <Viewbox Stretch="Uniform" StretchDirection="DownOnly" VerticalAlignment="Top" HorizontalAlignment="Left">
-            <!-- Canvas: contenido completo escalable -->
+﻿<Page
+    x:Class="muscle_try.PaginaImagenes"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="PaginaImagenes">
+    <!--  Falta documentar código  -->
+    <!--  Scroll solo si el alto no cabe (verticalmente, la barra scroll)  -->
+    <ScrollViewer
+        HorizontalAlignment="Left"
+        VerticalContentAlignment="Top"
+        HorizontalScrollBarVisibility="Disabled"
+        VerticalScrollBarVisibility="Auto">
+        <!--  Escalado automático proporcional al ancho  -->
+        <Viewbox
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Stretch="Uniform"
+            StretchDirection="DownOnly">
+            <!--  Canvas, donde se pone todo manualmente  -->
             <Canvas Width="2000" Height="1500">
-                <!-- Imagen izquierda -->
-                <Image Source="imagenes/imagen1.png"
-                       Width="1000" Height="1500"
-                       Canvas.Left="0" Canvas.Top="0"/>
+                <!--  Imagen izquierda (de frente)  -->
+                <Image
+                    Canvas.Left="0"
+                    Canvas.Top="0"
+                    Width="1000"
+                    Height="1500"
+                    Source="imagenes/imagen1.png" />
 
-                <!-- Imagen derecha -->
-                <Image Source="imagenes/imagen2.png"
-                       Width="1000" Height="1500"
-                       Canvas.Left="1000" Canvas.Top="0"/>
+                <!--  Imagen derecha (de espaldas)  -->
+                <Image
+                    Canvas.Left="1000"
+                    Canvas.Top="0"
+                    Width="1000"
+                    Height="1500"
+                    Source="imagenes/imagen2.png" />
 
-                <!--Imagen izquierda (de frente)-->
-                <!-- Polígono de pecho -->
-                <Polygon Points="0,80 50,13 80,4 157,18 245,2 270,15 320,80 265,144 235,150 158,135 75,148 45,135"
-                    Fill="Transparent" Stroke="Red" StrokeThickness="0"
+
+                <!--
+                    INFORMACIÓN SOBRE Polygon (Polígono):
+                    Points: Coordenadas x e y de cada vértice de los polígonos
+                    Fill= Transparente: Relleno invisible (Para que deje ver el interior)
+                    Stroke="Red": Contorno rojo (útil a la hora de poner los vértices, con StrokeThickness al 1 por lo menos)
+                    StrokeThickness: Grosor del pincel
+                    MouseDown: Método que se ejecuta al pulsar en el polígono
+                    MouseEnter: Método que se ejecuta al entrar en el polígono
+                    MouseLeave: Método que se ejecuta al salir del polígono
+                    x:Name: Nombre que se le da al polígono para usarlo en C# (útil si trabajas con varios a la vez)
+                    Canvas.Left, Canvas.Top: Píxeles respecto al lado izquierdo y arriba
+                    Width, Height: Ancho y alto en píxeles
+                -->
+
+                <!--  Imagen izquierda (de frente)  -->
+                <!--  Polígono de pecho  -->
+                <Polygon
+                    Canvas.Left="336"
+                    Canvas.Top="289"
+                    Width="321"
+                    Height="156"
+                    Fill="Transparent"
                     MouseDown="Pecho_Click"
                     MouseEnter="Polygon_MouseEnter"
                     MouseLeave="Polygon_MouseLeave"
-                    Canvas.Left="336" Canvas.Top="289" Width="321" Height="156"/>
+                    Points="0,80 50,13 80,4 157,18 245,2 270,15 320,80 265,144 235,150 158,135 75,148 45,135"
+                    Stroke="Red"
+                    StrokeThickness="0" />
 
-                <!-- Polígono de piernas -->
-                <Polygon Points="48,0 160,141 176,141 286,0 307,80 325,180 323,280 301,353 301,427 318,485 317,530 317,530 280,715
-                                 260,685 230,710 233,680 220,580 206,535 216,430 197,365 191,285 175,213 174,142 162,142 161,215
-                                 146,275 142,305 134,377 121,420 115,435 124,535 108,585 90,705 65,685 44,705 12,520 14,490
-                                 32,419 34,365 34,350 18,310 9,260 9,185" 
-                        Fill="Transparent" Stroke="Red" StrokeThickness="0"
-                        MouseDown="Cuadriceps_Click"
-                        MouseEnter="Polygon_MouseEnter"
-                        MouseLeave="Polygon_MouseLeave"
-                        Canvas.Left="326" Canvas.Top="620" Width="348" Height="723" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                <!--  Polígono de piernas  -->
+                <Polygon
+                    Canvas.Left="326"
+                    Canvas.Top="620"
+                    Width="348"
+                    Height="723"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Top"
+                    Fill="Transparent"
+                    MouseDown="Cuadriceps_Click"
+                    MouseEnter="Polygon_MouseEnter"
+                    MouseLeave="Polygon_MouseLeave"
+                    Points="48,0 160,141 176,141 286,0 307,80 325,180 323,280 301,353 301,427 318,485 317,530 317,530 280,715                                  260,685 230,710 233,680 220,580 206,535 216,430 197,365 191,285 175,213 174,142 162,142 161,215                                  146,275 142,305 134,377 121,420 115,435 124,535 108,585 90,705 65,685 44,705 12,520 14,490                                  32,419 34,365 34,350 18,310 9,260 9,185"
+                    Stroke="Red"
+                    StrokeThickness="0" />
 
-                <!--Hombro izquierdo frente-->
-                <Polygon Points="60,22 90,11 135,19 138,28 76,110 50,138 45,150 35,140 25,110 26,80 32,60 41,40"
-                        x:Name="HombroIzquierdoFrente"
-                        Fill="Transparent" Stroke="Red" StrokeThickness="0"
-                        MouseEnter="HombrosFrente_MouseEnter" MouseLeave="HombrosFrente_MouseLeave" Canvas.Left="250" Canvas.Top="268" HorizontalAlignment="Left" Height="158" VerticalAlignment="Center" Width="164"/>
+                <!--  Hombro izquierdo frente  -->
+                <Polygon
+                    x:Name="HombroIzquierdoFrente"
+                    Canvas.Left="250"
+                    Canvas.Top="268"
+                    Width="164"
+                    Height="158"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Center"
+                    Fill="Transparent"
+                    MouseDown="HombrosFrente_Click"
+                    MouseEnter="HombrosFrente_MouseEnter"
+                    MouseLeave="HombrosFrente_MouseLeave"
+                    Points="60,22 90,11 135,19 138,28 76,110 50,138 45,150 35,140 25,110 26,80 32,60 41,40"
+                    Stroke="Red"
+                    StrokeThickness="0" />
 
-                <!--Hombro derecho frente-->
-                <Polygon Points="3,12 30,5 50,2 70,7 90,20 100,30 115,65 118,85 116,105 104,135 97,140 80,114 27,50"
-                        x:Name="HombroDerechoFrente"
-                        Fill="Transparent" Stroke="Red" StrokeThickness="0"
-                        MouseEnter="HombrosFrente_MouseEnter" MouseLeave="HombrosFrente_MouseLeave" Canvas.Left="598" Canvas.Top="277" HorizontalAlignment="Center" VerticalAlignment="Center" Height="144" Width="142"/>
+                <!--  Hombro derecho frente  -->
+                <Polygon
+                    x:Name="HombroDerechoFrente"
+                    Canvas.Left="598"
+                    Canvas.Top="277"
+                    Width="142"
+                    Height="144"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Fill="Transparent"
+                    MouseDown="HombrosFrente_Click"
+                    MouseEnter="HombrosFrente_MouseEnter"
+                    MouseLeave="HombrosFrente_MouseLeave"
+                    Points="3,12 30,5 50,2 70,7 90,20 100,30 115,65 118,85 116,105 104,135 97,140 80,114 27,50"
+                    Stroke="Red"
+                    StrokeThickness="0" />
 
-                <!--Brazo izquierdo frente-->
-                <Polygon Points="87,22 96,46 102,51 108,39 125,21 135,19 140,19 156,30 158,45 153,85 127,160 127,180
-                         120,220 103,260 78,300 28,325 17,300 28,230 35,180 48,150 60,130 67,110 71,60"
-                        x:Name="BrazoIzquierdoFrente"
-                        Fill="Transparent" Stroke="Red" StrokeThickness="0"
-                        MouseEnter="BrazosFrente_MouseEnter" MouseLeave="BrazosFrente_MouseLeave"
-                         MouseDown="Biceps_Click"
-                        Canvas.Left="192" Canvas.Top="367" HorizontalAlignment="Center" Height="335" VerticalAlignment="Top" Width="164"/>
+                <!--  Brazo izquierdo frente  -->
+                <Polygon
+                    x:Name="BrazoIzquierdoFrente"
+                    Canvas.Left="192"
+                    Canvas.Top="367"
+                    Width="164"
+                    Height="335"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Top"
+                    Fill="Transparent"
+                    MouseDown="Biceps_Click"
+                    MouseEnter="BrazosFrente_MouseEnter"
+                    MouseLeave="BrazosFrente_MouseLeave"
+                    Points="87,22 96,46 102,51 108,39 125,21 135,19 140,19 156,30 158,45 153,85 127,160 127,180                          120,220 103,260 78,300 28,325 17,300 28,230 35,180 48,150 60,130 67,110 71,60"
+                    Stroke="Red"
+                    StrokeThickness="0" />
 
-                <!--Brazo derecho frente-->
-                <Polygon Points="6,30 10,18 13,13 20,8 33,7 47,17 47,17 57,31 60,38 65,36 68,33 75,13 90,40 93,60 95,90 96,100
-                         109,130 125,160 131,180 134,200 137,240 143,280 140,320 90,300 90,300 73,270 54,240 46,220 40,200
-                         36,170 34,140 9,70 "
+                <!--  Brazo derecho frente  -->
+                <Polygon
                     x:Name="BrazoDerechoFrente"
-                    Fill="Transparent" Stroke="Red" StrokeThickness="0"
-                    MouseEnter="BrazosFrente_MouseEnter" MouseLeave="BrazosFrente_MouseLeave"
-                    MouseDown="Biceps_Click" Canvas.Left="635" Canvas.Top="379" HorizontalAlignment="Center" VerticalAlignment="Top" Height="332" Width="160"/>
+                    Canvas.Left="635"
+                    Canvas.Top="379"
+                    Width="160"
+                    Height="332"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Top"
+                    Fill="Transparent"
+                    MouseDown="Biceps_Click"
+                    MouseEnter="BrazosFrente_MouseEnter"
+                    MouseLeave="BrazosFrente_MouseLeave"
+                    Points="6,30 10,18 13,13 20,8 33,7 47,17 47,17 57,31 60,38 65,36 68,33 75,13 90,40 93,60 95,90 96,100                          109,130 125,160 131,180 134,200 137,240 143,280 140,320 90,300 90,300 73,270 54,240 46,220 40,200                          36,170 34,140 9,70 "
+                    Stroke="Red"
+                    StrokeThickness="0" />
+
+
+                <!--  Torso frente  -->
+                <Polygon
+                    x:Name="Torso"
+                    Canvas.Left="326"
+                    Canvas.Top="387"
+                    Width="331"
+                    Height="394"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Top"
+                    Fill="Transparent"
+                    MouseDown="Torso_Click"
+                    MouseEnter="Polygon_MouseEnter"
+                    MouseLeave="Polygon_MouseLeave"
+                    Points="22,10 60,41 80,50 100,50 140,40 167,30 200,40 230,49 250,51 270,47 300,24 310,10 315,5 315,70 304,100 290,124                          284,160 285,175 290,200 289,220 287,227 180,370 175,374 161,375 50,235 47,220 47,200 51,170 52,150 48,125 30,94 20,64"
+                    Stroke="Red"
+                    StrokeThickness="0" />
 
 
 
 
 
 
+                <!--  Imagen derecha (espaldas)  -->
+                <!--  Polígono de espalda  -->
+                <Polygon
+                    Canvas.Left="1303"
+                    Canvas.Top="158"
+                    Width="391"
+                    Height="535"
+                    Fill="Transparent"
+                    MouseDown="Espalda_Click"
+                    MouseEnter="Polygon_MouseEnter"
+                    MouseLeave="Polygon_MouseLeave"
+                    Points="54,100 147,54 162,4 225,4 240,53 340,103 340,105 297,130 355,190 332,310 311,355                          310,383 310,383 318,420 316,463 250,445 205,508 195,535 190,525 168,485 144,460 110,450 72,460 71,410 80,369 55,300 42,240 33,190 92,130"
+                    Stroke="Red"
+                    StrokeThickness="0" />
+                <!--  Hombro izquierdo espalda  -->
+                <Polygon
+                    x:Name="HombroIzquierdoEspalda"
+                    Canvas.Left="1238"
+                    Canvas.Top="253"
+                    Width="164"
+                    Height="139"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Center"
+                    Fill="Transparent"
+                    MouseDown="HombrosEspalda_Click"
+                    MouseEnter="HombrosEspalda_MouseEnter"
+                    MouseLeave="HombrosEspalda_MouseLeave"
+                    Points="43,130 39,90 41,73 49,50 62,30 80,15 105,6 117,6 112,10 110,13 111,19 138,23 159,36                          150,39 117,80 97,96"
+                    Stroke="Red"
+                    StrokeThickness="0" />
+
+                <!--  Hombro derecho espalda  -->
+                <Polygon
+                    x:Name="HombroDerechoEspalda"
+                    Canvas.Left="1592"
+                    Canvas.Top="253"
+                    Width="142"
+                    Height="139"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Center"
+                    Fill="Transparent"
+                    MouseDown="HombrosEspalda_Click"
+                    MouseEnter="HombrosEspalda_MouseEnter"
+                    MouseLeave="HombrosEspalda_MouseLeave"
+                    Points="8,34 32,23 52,19 54,18 54,18 53,10 50,7 60,7 80,13 90,19 102,29 110,39 123,64 125,76 127,95 123,130 94,110 64,95"
+                    Stroke="Red"
+                    StrokeThickness="0" />
+
+                <!--  Brazo izquierdo  -->
+                <Polygon
+                    x:Name="BrazoIzquierdoEspalda"
+                    Canvas.Left="1166"
+                    Canvas.Top="347"
+                    Width="236"
+                    Height="387"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Fill="Transparent"
+                    MouseDown="Triceps_Click"
+                    MouseEnter="BrazosEspalda_MouseEnter"
+                    MouseLeave="BrazosEspalda_MouseLeave"
+                    Points="113,40 163,5 169,3 169,13 179,33 182,89 176,110 163,140 150,170 150,183 151,193 144,223 139,243 132,260 112,300                           95,330 85,355 55,375 35,355 40,335 46,305 51,250 57,200 64,180 82,150 93,130 96,120 102,70 "
+                    Stroke="Red"
+                    StrokeThickness="0" />
+
+                <!--  Brazo derecho  -->
+                <Polygon
+                    x:Name="BrazoDerechoEspalda"
+                    Canvas.Left="1601"
+                    Canvas.Top="347"
+                    Width="230"
+                    Height="387"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Top"
+                    Fill="Transparent"
+                    MouseDown="Triceps_Click"
+                    MouseEnter="BrazosEspalda_MouseEnter"
+                    MouseLeave="BrazosEspalda_MouseLeave"
+                    Points="56,2 114,34 125,64 130,94 132,120 135,130 145,150 162,180 169,200 169,200 175,230 177,260 179,290 183,320                           168,370 128,320 110,290 90,250 82,220 76,190 76,170 76,164 72,154 45,89"
+                    Stroke="Red"
+                    StrokeThickness="0" />
+
+                <!--  Piernas espalda  -->
+                <Polygon
+                    Canvas.Left="1328"
+                    Canvas.Top="584"
+                    Width="344"
+                    Height="824"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Top"
+                    Fill="Transparent"
+                    MouseDown="Isquios_Click"
+                    MouseEnter="Polygon_MouseEnter"
+                    MouseLeave="Polygon_MouseLeave"
+                    Points="45,36 55,30 75,21 95,17 106,7 106,7 161,87 170,110 186,70 234,5 242,17 265,22 285,31 295,45 302,75 331,225 332,295                           328,335 316,385 310,415 313,490 324,530 331,560 331,600 311,700 302,750 277,780 254,750 254,750 244,670 237,640 228,620 224,600                           226,560 232,520 234,505 232,495 218,455 212,425 205,365 195,335 184,305 176,265 174,188 169,186 162,188 161,240 155,290 141,330                           131,370 120,440 114,460 102,500 101,510 110,580 109,610 103,630 95,650 89,680 82,720 80,750 55,780 32,750 23,700 10,630 4,590                           6,550 20,500 24,470 26,405 14,360 5,300 4,240 19,150"
+                    Stroke="Red"
+                    StrokeThickness="0" />
 
 
-                <!--Imagen derecha (espaldas)-->
-                <!-- Polígono de espalda -->
-                <Polygon Points="54,100 147,54 162,4 225,4 240,53 340,103 340,105 297,130 355,190 332,310 311,355
-                         310,383 310,383 318,420 316,463 250,445 205,508 195,535 190,525 168,485 144,460 110,450 72,460 71,410 80,369 55,300 42,240 33,190 92,130"
-                         Fill="Transparent" Stroke="Red" StrokeThickness="0"
-                         MouseDown="Espalda_Click"
-                         MouseEnter="Polygon_MouseEnter"
-                         MouseLeave="Polygon_MouseLeave"
-                         
-                         Canvas.Left="1303" Canvas.Top="158" Width="391" Height="535"/>
-                <!--Hombro izquierdo espalda-->
-                <Polygon Points="43,130 39,90 41,73 49,50 62,30 80,15 105,6 117,6 112,10 110,13 111,19 138,23 159,36
-                         150,39 117,80 97,96"
-                        x:Name="HombroIzquierdoEspalda"
-                        Fill="Transparent" Stroke="Red" StrokeThickness="0"
-                        MouseEnter="HombrosEspalda_MouseEnter" MouseLeave="HombrosEspalda_MouseLeave" MouseDown="HombrosEspalda_Click" Canvas.Left="1238" Canvas.Top="253" HorizontalAlignment="Left" Height="139" VerticalAlignment="Center" Width="164"/>
 
-                <!--Hombro derecho espalda-->
-                <Polygon Points="8,34 32,23 52,19 54,18 54,18 53,10 50,7 60,7 80,13 90,19 102,29 110,39 123,64 125,76 127,95 123,130 94,110 64,95"
-                        x:Name="HombroDerechoEspalda"
-                        Fill="Transparent" Stroke="Red" StrokeThickness="0"
-                        MouseEnter="HombrosEspalda_MouseEnter" MouseLeave="HombrosEspalda_MouseLeave" MouseDown="HombrosEspalda_Click" Canvas.Left="1592" Canvas.Top="253" HorizontalAlignment="Left" VerticalAlignment="Center" Height="139" Width="142"/>
-
-                <!--Brazo izquierdo-->
-                <Polygon Points="113,40 163,5 169,3 169,13 179,33 182,89 176,110 163,140 150,170 150,183 151,193 144,223 139,243 132,260 112,300 
-                         95,330 85,355 55,375 35,355 40,335 46,305 51,250 57,200 64,180 82,150 93,130 96,120 102,70 "
-                        x:Name="BrazoIzquierdoEspalda"
-                        Fill="Transparent" Stroke="Red" StrokeThickness="1"
-                        MouseEnter="BrazosEspalda_MouseEnter" MouseLeave="BrazosEspalda_MouseLeave" Canvas.Left="1166" Canvas.Top="347" HorizontalAlignment="Center" Height="387" VerticalAlignment="Center" Width="236"/>
-
-                <!--Brazo derecho-->
-                <Polygon Points="56,2 114,34 125,64 130,94 132,120 135,130 145,150 162,180 169,200 169,200 175,230 177,260 179,290 183,320 
-                         168,370 128,320 110,290 90,250 82,220 76,190 76,170 76,164 72,154 45,89"
-                        x:Name="BrazoDerechoEspalda"
-                        Fill="Transparent" Stroke="Red" StrokeThickness="1"
-                        MouseEnter="BrazosEspalda_MouseEnter" MouseLeave="BrazosEspalda_MouseLeave" Canvas.Left="1601" Canvas.Top="347" HorizontalAlignment="Center" VerticalAlignment="Top" Height="387" Width="230"/>
-
-
-
-
-
-                <!-- Panel informativo -->
-                <StackPanel x:Name="PanelMusculo" Background="White" Visibility="Collapsed"
-            Canvas.Left="720" Canvas.Top="30" Width="540" Height="320">
-                    <TextBlock x:Name="TituloMusculo" FontWeight="Bold" FontSize="16" Margin="10"/>
-                    <MediaElement x:Name="VideoMusculo"
-                  Width="500" Height="320" Margin="10"
-                  LoadedBehavior="Manual" UnloadedBehavior="Stop"/>
+                <!--
+                    Panel informativo (vertical):
+                    x:Name= Identificador para usarlo en C#
+                    Background= Color de fondo
+                    Visibility="Collapsed": Visibilidad oculta, hasta clic del usuario en algún músculo
+                    Canvas.Left, Canvas.Top: Posicionamiento en px
+                    Width, Height: Ancho y alto en px
+                -->
+                <StackPanel
+                    x:Name="PanelMusculo"
+                    Canvas.Left="720"
+                    Canvas.Top="20"
+                    Width="540"
+                    Height="340"
+                    Background="White"
+                    Visibility="Collapsed">
+                    <!--
+                        Título del músculo:
+                        FontWeight: Texto en negrita
+                        FontSize: Tamaño del texto
+                        Margin: Espacio al rededor del texto
+                    -->
+                    <TextBlock
+                        x:Name="TituloMusculo"
+                        Margin="10"
+                        FontSize="16"
+                        FontWeight="Bold" />
+                    <!--
+                        Reproductor de video:
+                        x:Name: Nombre: Para poder acceder desde código
+                        Width, Height: Ancho y alto
+                        Margin: Separación respecto a los bordes del panel
+                        LoadedBehavior="Manual": No se reproduce el video automaticamente cuando se carga
+                        UnloadedBehavior="Stop": Cuando se sale de la página el video se para
+                    -->
+                    <MediaElement
+                        x:Name="VideoMusculo"
+                        Width="500"
+                        Height="300"
+                        Margin="10"
+                        LoadedBehavior="Manual"
+                        UnloadedBehavior="Stop" />
                 </StackPanel>
             </Canvas>
         </Viewbox>
