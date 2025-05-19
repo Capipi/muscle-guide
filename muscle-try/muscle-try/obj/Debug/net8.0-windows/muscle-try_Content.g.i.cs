@@ -12,6 +12,8 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videos/curl_biceps.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videos/deltoides_anterior.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videos/deltoides_medial.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videos/espalda.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videos/fondos.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videos/isquiotibiales.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videos/pectoral.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videos/plancha.mp4")]

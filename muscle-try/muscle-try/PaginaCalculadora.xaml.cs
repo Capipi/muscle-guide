@@ -16,13 +16,15 @@ namespace muscle_try
             // Validación básica (todos los campos escritos en tipo de dato correcto y no nulos)
             if (!double.TryParse(PesoInput.Text, out double peso) ||
                 !double.TryParse(AlturaInput.Text, out double alturaCm) ||
-                !int.TryParse(EdadInput.Text, out int edad) ||
+                !int.TryParse(EdadInput.Text, out int edad) || // Edad, peso y altura podría poner un rango
                 SexoCombo.SelectedItem == null ||
                 ActividadCombo.SelectedItem == null)
             {
                 MessageBox.Show("Por favor, completa todos los campos correctamente.");
                 return;
             }
+
+            
 
             double alturaM = alturaCm / 100.0;
 

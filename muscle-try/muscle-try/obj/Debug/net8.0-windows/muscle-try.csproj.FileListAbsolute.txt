@@ -57,3 +57,10 @@ C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\musc
 C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\videos\Isquiotibiales.mp4
 C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\videos\Pectoral.mp4
 C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\videos\Cuadriceps.mp4
+C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\obj\Debug\net8.0-windows\muscle-try.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\obj\Debug\net8.0-windows\muscle-try.csproj.Up2Date
+C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\videos\Espalda.mp4
+C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Debug\net8.0-windows\videos\Fondos.mp4

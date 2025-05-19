@@ -33,7 +33,7 @@ namespace muscle_try
         private void Espalda_Click(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
             TituloMusculo.Text = "Espalda";
-            VideoMusculo.Source = new Uri("videos/Flexiones.mp4", UriKind.Relative);
+            VideoMusculo.Source = new Uri("videos/Espalda.mp4", UriKind.Relative);
             PanelMusculo.Visibility = Visibility.Visible;
             VideoMusculo.Play();
             //MessageBox.Show(System.IO.File.Exists("videos/pecho.mp4") ? "Sí existe" : "No existe");
@@ -51,7 +51,7 @@ namespace muscle_try
         private void Triceps_Click(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
             TituloMusculo.Text = "Triceps";
-            VideoMusculo.Source = new Uri("videos/Flexiones.mp4", UriKind.Relative);
+            VideoMusculo.Source = new Uri("videos/Fondos.mp4", UriKind.Relative);
             PanelMusculo.Visibility = Visibility.Visible;
             VideoMusculo.Play();
         }

@@ -16,7 +16,9 @@
     <None Remove="videos\Curl_biceps.mp4" />
     <None Remove="videos\Deltoides_anterior.mp4" />
     <None Remove="videos\Deltoides_medial.mp4" />
+    <None Remove="videos\Espalda.mp4" />
     <None Remove="videos\Flexiones.mp4" />
+    <None Remove="videos\Fondos.mp4" />
     <None Remove="videos\Isquios.mp4" />
     <None Remove="videos\Isquiotibiales.mp4" />
     <None Remove="videos\Laterales.mp4" />
@@ -44,6 +46,12 @@
     <Content Include="videos\Deltoides_medial.mp4">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="videos\Espalda.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="videos\Fondos.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="videos\Isquiotibiales.mp4">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -53,6 +61,11 @@
     <Content Include="videos\Plancha.mp4">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignColors" Version="5.2.1" />
+    <PackageReference Include="MaterialDesignThemes" Version="5.2.1" />
   </ItemGroup>
 
 </Project>
