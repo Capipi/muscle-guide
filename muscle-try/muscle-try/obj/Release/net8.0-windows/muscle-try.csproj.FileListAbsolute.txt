@@ -35,3 +35,6 @@ C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\musc
 C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\obj\Release\net8.0-windows\muscle-try.pdb
 C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\obj\Release\net8.0-windows\muscle-try.genruntimeconfig.cache
 C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\obj\Release\net8.0-windows\ref\muscle-try.dll
+C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Release\net8.0-windows\videos\Espalda.mp4
+C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Release\net8.0-windows\videos\Fondos.mp4
+C:\Users\USUARIO\Documents\AA-Proyecto fin de curso\muscle-guide\muscle-try\muscle-try\bin\Release\net8.0-windows\imagenes\icono_Brazo.ico

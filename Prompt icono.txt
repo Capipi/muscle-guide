@@ -1,0 +1,5 @@
+Para este prompt también usé Sora:
+
+>
+A realistic, high-resolution image of a muscular human arm flexing, isolated on a clean, transparent background. The arm should be well-defined with visible biceps and forearm muscle structure, slightly stylized for icon use. The image must be centered and symmetrical enough to crop into a square icon (256x256 px). The lighting should create depth and highlight the muscle tone, with soft shadows and no surrounding objects. Ideal for use as a fitness or anatomy app icon. No text or background elements.
+<

@@ -12,6 +12,7 @@
 11. Avances en el cuerpo humano (hombros [2 imágenes], brazos [2 imágenes], nuevos vídeos incorporados [biceps, hombros, sentadilla], ejemplo de video erróneo)+ nuevo video actualización.
 12. Últimos músculos del cuerpo completos (torso y parte de atrás de pierna), vídeos nuevos, código formateado y explicado y creación de calculadora de calorías, macros e IMC.
 13. Últimos retoques, todos los prompts y videos añadidos y video final.
+14. Icono añadido, prompt del icono e imagen del icono, también ejecutable para probar la aplicación en windows.
 
 #### "Cursos":
 * [Curso rápido de introducción a WPF Básico - 1](https://www.youtube.com/watch?v=an2_ZWjCxy8&list=PLJMC9VQdDCgJpgLzxhkhnt0hW_VRg3E5b&index=2)

@@ -7,9 +7,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+	<ApplicationIcon>imagenes/icono_Brazo.ico</ApplicationIcon>
+
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="imagenes\icono_Brazo.ico" />
     <None Remove="imagenes\imagen1.png" />
     <None Remove="imagenes\imagen2.png" />
     <None Remove="videos\Cuadriceps.mp4" />
@@ -34,6 +37,9 @@
     <Resource Include="imagenes\imagen2.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
+    <Content Include="imagenes\icono_Brazo.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="videos\Cuadriceps.mp4">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

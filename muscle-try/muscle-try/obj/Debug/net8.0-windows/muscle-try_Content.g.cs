@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("imagenes/icono_brazo.ico")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videos/cuadriceps.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videos/curl_biceps.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videos/deltoides_anterior.mp4")]
